@@ -1,8 +1,14 @@
 import React from "react";
-import Header from "./Header";
+import Button from "./Components/Button";
+import Input from "./Components/Input";
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Button />
+      <Input />
+    </>
+  );
 }
 
 export default App;
