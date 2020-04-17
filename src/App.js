@@ -2,6 +2,7 @@ import React from "react";
 import Button from "./Components/Button";
 import Input from "./Components/Input";
 import Htext from "./Components/Htext";
+import Hspan from "./Components/Hspan";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Button />
       <Input />
       <Htext />
+      <Hspan />
     </>
   );
 }
